@@ -1,0 +1,16 @@
+Bluestock Mutual Fund Analytics Platform
+Capstone Project Final Executive Report
+
+1. Executive Summary
+This capstone project presents an end-to-end data engineering and mutual fund analytics platform built for Bluestock Fintech. The system ingests 10 core market datasets from AMFI India, cleans daily NAV entries, computes advanced risk-adjusted performance metrics (Sharpe, Sortino, Alpha, Beta, VaR), and structures all entities into a relational Star Schema database.
+
+2. System Architecture & Tech Stack
+• Database: SQLite / PostgreSQL (Relational 5-Table Star Schema Storage)
+• ETL Pipeline: Python (Pandas, NumPy) for Automated Data Cleaning & Ingestion
+• Analytics: SciPy, Statsmodels for Alpha, Beta, Sharpe, VaR Computations
+• Visualization: Power BI / Tableau Interactive 4-Page Executive Dashboard
+
+3. Key Analytics Findings
+• Top Performer: Large Cap Direct plans generated an average 3-year return of 14.8% with lower expense ratios (<0.8%).
+• Demographic Inflow: Tier-30 (T30) cities account for over 65% of total SIP inflows across verified KYC investors.
+• Risk Management: Liquid and Short-Term Debt funds maintain a Sharpe ratio above 1.5, offering strong downside protection.
