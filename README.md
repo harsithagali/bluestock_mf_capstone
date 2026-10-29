@@ -54,3 +54,23 @@ story.append(Paragraph("• <b>Risk Management:</b> Liquid and Short-Term Debt f
 
 doc.build(story)
 print(f"Final Report successfully built and saved to {pdf_filename}!")
+## 📊 Analytics Dashboard & Executive Deliverables
+
+### 1. Performance & Risk Metrics
+The interactive Streamlit dashboard calculates and presents core risk-adjusted performance metrics across mutual fund schemes:
+
+![Performance and Risk Metrics](reports/dashboard_metrics.png)
+
+---
+
+### 2. Risk-Based Fund Recommendations & PDF Export
+Users can filter mutual fund recommendations based on their target risk profile and generate an official executive report directly from the interface:
+
+![Fund Recommendations and PDF Executive Report](reports/dashboard_recommendations.png)
+
+---
+
+### 3. Automated Executive PDF Report
+The system programmatically builds and formats a structured PDF report (`Final_Report.pdf`) summarizing system architecture, tech stack, and key analytics findings:
+
+![Bluestock Mutual Fund Analytics Executive Report](reports/final_report_preview.png)
