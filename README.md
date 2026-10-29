@@ -54,21 +54,15 @@ story.append(Paragraph("• <b>Risk Management:</b> Liquid and Short-Term Debt f
 
 doc.build(story)
 print(f"Final Report successfully built and saved to {pdf_filename}!")
-## 📊 Analytics Dashboard & Executive Deliverables
 
-### 1. Performance & Risk Metrics
-The interactive Streamlit dashboard calculates and presents core risk-adjusted performance metrics across mutual fund schemes:
+<img width="1790" height="872" alt="Screenshot 2026-10-29 161919" src="https://github.com/user-attachments/assets/b79c1c8b-9e49-4d79-bdbe-8ea030e418ba" />
 
-![Performance and Risk Metrics](reports/dashboard_metrics.png)
+<img width="1801" height="807" alt="Screenshot 2026-10-29 161857" src="https://github.com/user-attachments/assets/af5e2690-3ea9-48cb-9d09-d911b9cf18f3" />
 
----
+<img width="838" height="772" alt="Screenshot 2026-10-29 161937" src="https://github.com/user-attachments/assets/c253076c-c0bd-4f31-97a7-b491cb9820d3" />
 
-### 2. Risk-Based Fund Recommendations & PDF Export
-Users can filter mutual fund recommendations based on their target risk profile and generate an official executive report directly from the interface:
 
-![Fund Recommendations and PDF Executive Report](reports/dashboard_recommendations.png)
 
----
 
 ### 3. Automated Executive PDF Report
 The system programmatically builds and formats a structured PDF report (`Final_Report.pdf`) summarizing system architecture, tech stack, and key analytics findings:
